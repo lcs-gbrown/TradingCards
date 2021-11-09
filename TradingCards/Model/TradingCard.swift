@@ -53,7 +53,7 @@ TradingCard(playerImage: "Steve Kerr", playerName: "Steve Kerr",
             AST: "1.8",
             caption: "Steve was a point guard on the Bulls, and widely known as a really nice guy, but a bit of an underdog."),
 
-TradingCard(playerImage: "Tony Kukoc", playerName: "Tony Kukoc",
+TradingCard(playerImage: "Toni Kukoc", playerName: "Toni Kukoc",
             position: "SF, PF",
             G: "846",
             PTS: "11.6",
