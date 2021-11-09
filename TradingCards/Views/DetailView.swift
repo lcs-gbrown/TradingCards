@@ -25,7 +25,7 @@ struct DetailView: View {
                     Color.black
                         .padding(10)
                     
-                    Image(card.imageOne)
+                    Image(card.playerImage)
                         .resizable()
                         .scaledToFit()
                         .padding(10)
@@ -53,7 +53,7 @@ AST: \(card.AST)
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            DetailView(card: listOfCards.first!)
+            DetailView(card: listOfCards[3])
         }
     }
 }

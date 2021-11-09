@@ -8,7 +8,7 @@
 import Foundation
 
 struct TradingCard {
-    let imageOne: String
+    let playerImage: String
     let playerName: String
     let position: String
     let G: String
@@ -20,7 +20,7 @@ struct TradingCard {
 
 let listOfCards = [
 
-TradingCard(imageOne: "Michael Jordan", playerName: "Michael Jordan",
+TradingCard(playerImage: "Michael Jordan", playerName: "Michael Jordan",
             position: "SG",
             G: "1072",
             PTS: "30.1",
@@ -29,7 +29,7 @@ TradingCard(imageOne: "Michael Jordan", playerName: "Michael Jordan",
             caption: "Micheal Jordan is regarded as the best NBA players of all time, he won 6 titles."),
 
 
-TradingCard(imageOne: "Scottie Pippen", playerName: "Scottie Pippen",
+TradingCard(playerImage: "Scottie Pippen", playerName: "Scottie Pippen",
             position: "SF",
             G: "1178",
             PTS: "16.1",
@@ -37,7 +37,7 @@ TradingCard(imageOne: "Scottie Pippen", playerName: "Scottie Pippen",
             AST: "5.2",
             caption: "Scottie is also a renowned player. Him and Micheal Jordan were often nicknames Batman and Robin as they were the dynamic duo."),
 
-TradingCard(imageOne: "Dennis Rodman", playerName: "Dennis Rodman",
+TradingCard(playerImage: "Dennis Rodman", playerName: "Dennis Rodman",
             position: "PF",
             G: "911",
             PTS: "7.3",
@@ -45,7 +45,7 @@ TradingCard(imageOne: "Dennis Rodman", playerName: "Dennis Rodman",
             AST: "1.8",
             caption: "Dennis Rodman was the star defensive player of the bulls. He was part of a trio with Michael and Scottie, but often was a little excluded. He was very wild in comparison to the other two."),
 
-TradingCard(imageOne: "Steve Kerr", playerName: "Steve Kerr",
+TradingCard(playerImage: "Steve Kerr", playerName: "Steve Kerr",
             position: "PG",
             G: "910",
             PTS: "6.0",
@@ -53,7 +53,7 @@ TradingCard(imageOne: "Steve Kerr", playerName: "Steve Kerr",
             AST: "1.8",
             caption: "Steve was a point guard on the Bulls, and widely known as a really nice guy, but a bit of an underdog."),
 
-TradingCard(imageOne: "Tony Kukoc", playerName: "Tony Kukoc",
+TradingCard(playerImage: "Tony Kukoc", playerName: "Tony Kukoc",
             position: "SF, PF",
             G: "846",
             PTS: "11.6",
@@ -61,7 +61,7 @@ TradingCard(imageOne: "Tony Kukoc", playerName: "Tony Kukoc",
             AST: "3.7",
             caption: "Tony was a bit of an outsider to the team. He came to play in America from Croatia, and a few others felt threatened by him. They didn't like him coming in and changing things- but overall he was very talented and everyone learned to deal."),
 
-TradingCard(imageOne: "Ron Harper", playerName: "Ron Harper",
+TradingCard(playerImage: "Ron Harper", playerName: "Ron Harper",
             position: "SG, PG",
             G: "1009",
             PTS: "13.1",
@@ -69,7 +69,7 @@ TradingCard(imageOne: "Ron Harper", playerName: "Ron Harper",
             AST: "3.9",
             caption: "Ron Harper actually started playing against the bulls on the Cleveland Cavaliers, and was seen as some of Michael Jordan's biggest competition. He did have a few injuries throughout his career, and by the time he came to the Bulls he was more of a defensive player."),
 
-TradingCard(imageOne: "Phil Jackson", playerName: "Phil Jackson",
+TradingCard(playerImage: "Phil Jackson", playerName: "Phil Jackson",
             position: "coach",
             G: "n/a",
             PTS: "n/a",

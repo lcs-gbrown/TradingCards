@@ -12,7 +12,7 @@ struct TradingCardsApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ScottiePippenView()
+                DetailView(card: listOfCards.first!)
             }
         }
     }

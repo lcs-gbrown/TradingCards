@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "e0fd45d2-9164-4aec-ada9-7c5becf75935-AP_BULLS_HORNETS.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
