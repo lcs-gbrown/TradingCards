@@ -53,7 +53,7 @@ AST: \(card.AST)
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            DetailView(card: listOfCards[3])
+            DetailView(card: listOfCards[6])
         }
     }
 }

@@ -75,7 +75,7 @@ TradingCard(playerImage: "Phil Jackson", playerName: "Phil Jackson",
             PTS: "n/a",
             TRB: "n/a",
             AST: "n/a",
-            caption: "Phil Jackson was the coach that lead the Bulls to so many victories. He really saw Michael's talent and played it. He knew how to us ethe teams advantages, but sometimes ha dconflict because of how much attention he paid to MJ."),
+            caption: "Phil Jackson was the coach that lead the Bulls to so many victories. He really saw Michael's talent and played it. He knew how to use the teams advantages, but sometimes had conflict because of how much attention he paid to MJ."),
 
 
 
