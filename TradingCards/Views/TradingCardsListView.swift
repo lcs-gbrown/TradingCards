@@ -19,12 +19,14 @@ struct TradingCardsListView: View {
                     
                 }, label: {
                     
-                    Text(currentItem.playerName)
+                    EnhancedListItemView(imageName: currentItem.playerImage,
+                                         title: currentItem.playerName,
+                                         subtitle: currentItem.caption)
                     
                 })
             }
         }
-        
+        .navigationTitle("Chicago Bulls")
         
     }
 }

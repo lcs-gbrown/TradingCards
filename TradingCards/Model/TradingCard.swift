@@ -18,6 +18,7 @@ struct TradingCard: Identifiable {
     let TRB: String
     let AST: String
     let caption: String
+    
 }
 
 let listOfCards = [
