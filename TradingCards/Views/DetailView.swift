@@ -14,7 +14,7 @@ struct DetailView: View {
     
     // MARK: Computed property
     var body: some View {
-        
+        ScrollView {
         VStack {
                 
                 
@@ -47,7 +47,7 @@ AST: \(card.AST)
             }
         }
         
-
+    }
 }
 
 struct DetailView_Previews: PreviewProvider {

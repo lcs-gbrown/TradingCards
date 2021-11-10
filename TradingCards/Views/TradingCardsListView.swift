@@ -9,24 +9,25 @@ import SwiftUI
 
 struct TradingCardsListView: View {
     var body: some View {
-        List {
-            
-            ForEach(listOfCards) { currentItem in
+            List {
                 
-                NavigationLink(destination: {
+                ForEach(listOfCards) { currentItem in
                     
-                    DetailView(card: currentItem)
-                    
-                }, label: {
-                    
-                    EnhancedListItemView(imageName: currentItem.playerImage,
-                                         title: currentItem.playerName,
-                                         subtitle: currentItem.caption)
-                    
-                })
+                    NavigationLink(destination: {
+                        
+                        DetailView(card: currentItem)
+                        
+                    }, label: {
+                        
+                        EnhancedListItemView(imageName: currentItem.playerImage,
+                                             title: currentItem.playerName,
+                                             subtitle: currentItem.subtitle)
+                        
+                    })
+                }
             }
-        }
-        .navigationTitle("Chicago Bulls")
+            
+            .navigationTitle("Chicago Bulls")
         
     }
 }
