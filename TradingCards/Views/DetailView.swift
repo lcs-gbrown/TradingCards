@@ -35,7 +35,7 @@ struct DetailView: View {
             Text (card.playerName)
                     .font(.headline)
                 Text ("""
-psoition:\(card.position)
+position:\(card.position)
 G: \(card.G)
 PTS: \(card.PTS)
 TRB: \(card.TRB)
@@ -53,7 +53,7 @@ AST: \(card.AST)
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            DetailView(card: listOfCards[6])
+            DetailView(card: listOfCards[2])
         }
     }
 }

@@ -10,17 +10,21 @@ import SwiftUI
 struct TradingCardsListView: View {
     var body: some View {
         List {
-            Text("Michael Jordan")
-            Text("Scottie Pippen")
-            Text("Dennis Rodman")
-            Text("Steve Kerr")
-            Text("Toni Kukoc")
-            Text("Ron Harper")
-            Text("Phil Jackson")
             
-            
+            ForEach(listOfCards) { currentItem in
+                
+                NavigationLink(destination: {
+                    
+                    DetailView(card: currentItem)
+                    
+                }, label: {
+                    
+                    Text(currentItem.playerName)
+                    
+                })
+            }
         }
-        .navigationTitle("Chicago Bulls")
+        
         
     }
 }

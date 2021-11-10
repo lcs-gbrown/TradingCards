@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct TradingCard {
+struct TradingCard: Identifiable {
+    
+    let id = UUID ()
     let playerImage: String
     let playerName: String
     let position: String
